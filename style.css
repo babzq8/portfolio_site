@@ -4,40 +4,23 @@ grey: #6f736a
 gold: #c2ad2d
 maroon: #542d32
 */
+.navbar {
+  background-color: #FFF;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #FFF;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #6f736a;
+}
+
 body {
   background-color: #6f736a;
   color: #FFF;
-  margin: 0;
-  padding: 0;
-  text-align: center;
 }
-
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  align-items: center;
-  background-color: #FFF;
-  padding: 1rem 1rem 0 1rem;
-}
-
-.logo {
-  height: 10rem;
-  margin: auto;
-}
-
-nav a {
-  display: none;
-}
-
-/* Media queries */
-@media screen and (min-device-width: 750px) and (max-device-width: 1200px) {
-  nav a {
-    color: #6f736a;
-    text-decoration: none;
-    padding: .5rem;
-  }
-}
-
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {}
