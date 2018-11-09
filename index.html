@@ -3,21 +3,45 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Brit Barrick</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="header">
-    <img class="logo" src="images/logo.png" alt="logo" />
-    <nav>
-      <a href=""> About Me</a>
-      <a href=""> My Work</a>
-      <a href=""> My Skills</a>
-      <a href=""> My Education</a>
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/logo_gold.png" alt="logo" /></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About Me</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My...<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">My Work</a></li>
+                <li><a href="#">My Skills</a></li>
+                <li><a href="#">My Education</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
+    <h1> Hello, I'm Brit. </h1>
   </div>
-  <h1> Hello, I'm Brit </h1>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
