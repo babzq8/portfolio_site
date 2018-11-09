@@ -12,12 +12,23 @@ maroon: #542d32
   height: auto;
 }
 
-.navbar-inverse .navbar-toggle {
+.navbar-toggle {
   border-color: #FFF;
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-toggle .icon-bar {
   background-color: #6f736a;
+}
+
+.navbar-nav li a {
+  color: #6f736a;
+}
+
+.navbar-nav li a:hover {
+  background-color: #c2ad2d;
+  border-radius: 15%;
+  padding: 1rem;
+  color: #FFF;
 }
 
 body {
